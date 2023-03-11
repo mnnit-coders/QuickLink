@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Send</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
 	<div class="app">
+
+		
+
+
 		<div class="screen join-screen active">
 			<div class="form">
+				
 				<div class="form-input">
 					<button style="background: #F81A1A;" id="sender-start-con-btn">Send</button>
 				</div>
 				<div class="form-input" id="join-id">
+					
 				</div>
 				<a class="screen receiver active" href="http://localhost:5000/receiver.html">Receive</a>
 			</div>
+			
 		</div>
 		<div class="screen fs-screen">
 			<div class="file-input">
 				<label for="file-input">
 					<img src="./images/upload.png" alt="">
 					<br>
+
 					<div class="title">
 						Select Files
 					</div>
@@ -35,9 +41,10 @@
 			<div class="files-list">
 			</div>
 		</div>
+
+		
 	</div>
 	<script type="text/javascript" src="socket.io/socket.io.js"></script>
 	<script type="text/javascript" src="index.js"></script>
 </body>
-
 </html>
